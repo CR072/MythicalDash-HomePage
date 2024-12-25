@@ -507,7 +507,7 @@ const countdown = ref({
 })
 
 const calculateTimeLeft = () => {
-  const difference = +new Date('2025-01-01') - +new Date()
+  const difference = +new Date('2025-02-15') - +new Date()
   let timeLeft = { days: 0, hours: 0, minutes: 0, seconds: 0 }
 
   if (difference > 0) {
