@@ -81,7 +81,7 @@
         </div>
         <div class="lg:w-1/2 animate-float">
           <img
-            src="https://i.mythical.systems/storage/uploads/1732404307.png?height=400&width=600"
+            src="https://i.mythical.systems/storage/uploads/1738160250.png?height=400&width=600"
             alt="MythicalClient Dashboard Preview"
             class="rounded-lg shadow-2xl"
           />
@@ -371,12 +371,12 @@ const productPreviews = [
   {
     title: 'Intuitive Dashboard',
     description: 'Get a quick overview of your business with our user-friendly dashboard.',
-    image: 'https://i.mythical.systems/storage/uploads/1732404307.png?height=300&width=500',
+    image: 'https://i.mythical.systems/storage/uploads/1738160250.png?height=300&width=500',
   },
   {
     title: 'Powerful Admin Panel',
     description: 'Manage all aspects of your hosting business from one central location.',
-    image: 'https://i.mythical.systems/storage/uploads/1731197845.png?height=300&width=500',
+    image: 'https://mythical.pics/i?i=1738160336?height=300&width=500',
   },
 ]
 
@@ -507,7 +507,7 @@ const countdown = ref({
 })
 
 const calculateTimeLeft = () => {
-  const difference = +new Date('2025-02-15') - +new Date()
+  const difference = +new Date('2025-03-15') - +new Date()
   let timeLeft = { days: 0, hours: 0, minutes: 0, seconds: 0 }
 
   if (difference > 0) {
