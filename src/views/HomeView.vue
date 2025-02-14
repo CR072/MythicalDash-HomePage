@@ -173,9 +173,9 @@
               <tr class="bg-purple-900 bg-opacity-50">
                 <th class="p-3 border border-gray-700">Feature</th>
                 <th class="p-3 border border-gray-700">MythicalClient</th>
+                <th class="p-3 border border-gray-700">HolaClient</th>
                 <th class="p-3 border border-gray-700">WHMCS</th>
                 <th class="p-3 border border-gray-700">Paymenter</th>
-                <th class="p-3 border border-gray-700">HolaClient</th>
               </tr>
             </thead>
             <tbody>
@@ -388,7 +388,7 @@ const comparisonFeatures = [
     paymenter: true,
     holaclient: true,
   },
-  { name: 'Open Source', mythicalClient: true, whmcs: false, paymenter: true, holaclient: false },
+  { name: 'Open Source', mythicalClient: true, whmcs: false, paymenter: true, holaclient: true },
   {
     name: 'Automated Backups',
     mythicalClient: true,
@@ -409,7 +409,7 @@ const comparisonFeatures = [
     mythicalClient: true,
     whmcs: true,
     paymenter: false,
-    holaclient: false,
+    holaclient: true,
   }
 ]
 
