@@ -188,7 +188,7 @@
                 <td class="p-3 border border-gray-700">{{ feature.name }}</td>
                 <td
                   class="p-3 border border-gray-700"
-                  v-for="product in ['mythicalClient', 'whmcs', 'paymenter', 'holaclient']"
+                  v-for="product in ['mythicalClient', 'holaclient', 'whmcs', 'paymenter']"
                   :key="product"
                 >
                   <CheckIcon
@@ -390,27 +390,27 @@ const comparisonFeatures = [
   },
   { name: 'Open Source', mythicalClient: true, whmcs: false, paymenter: true, holaclient: false },
   {
-    name: 'Customizable Themes',
-    mythicalClient: true,
-    whmcs: true,
-    paymenter: false,
-    holaclient: false,
-  },
-  {
     name: 'Automated Backups',
     mythicalClient: true,
     whmcs: true,
     paymenter: false,
-    holaclient: false,
+    holaclient: true,
   },
   {
     name: 'Open SDK (Plugins SDK)',
     mythicalClient: true,
     whmcs: true,
     paymenter: true,
-    holaclient: false,
+    holaclient: true,
   },
   { name: 'Live App', mythicalClient: true, whmcs: false, paymenter: true, holaclient: true },
+  {
+    name: 'Customizable Themes',
+    mythicalClient: true,
+    whmcs: true,
+    paymenter: false,
+    holaclient: false,
+  }
 ]
 
 const pricingPlans = [
