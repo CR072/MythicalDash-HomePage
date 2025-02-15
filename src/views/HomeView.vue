@@ -188,7 +188,7 @@
                 <td class="p-3 border border-gray-700">{{ feature.name }}</td>
                 <td
                   class="p-3 border border-gray-700"
-                  v-for="product in ['mythicalClient', 'whmcs', 'paymenter', 'holaclient']"
+                  v-for="product in ['mythicalClient', 'holaclient' 'whmcs', 'paymenter']"
                   :key="product"
                 >
                   <CheckIcon
